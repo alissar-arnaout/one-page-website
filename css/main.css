@@ -1,0 +1,32 @@
+body {
+    background-color: lightgrey;
+}
+
+nav {
+    border: black;
+}
+
+.nav-item {
+    display: inline-block;
+    background-color: rgb(40, 38, 38);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    color: white;
+}
+
+#left-panel {
+    background-color: darkblue;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+#right-panel {
+    background-color: rgb(26, 143, 102);
+    width: 80%;
+    height: 500px;
+    display: inline-block;
+}
